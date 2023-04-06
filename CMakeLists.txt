@@ -3,4 +3,4 @@ project(ProyectoZoologico)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(ProyectoZoologico main.cpp)
+add_executable(ProyectoZoologico main.cpp src/animal.cpp src/animal.h src/habitat.cpp src/habitat.h)
